@@ -8,4 +8,4 @@ A simple terraform GKE cluster example.
 - Grab a GCP service account json file and have the path ready. (Usually Owner role is required for full capabilities)
 - Have your project name available.
 - `terraform plan`
-- You need to have a bucket that matches the `backend.tf` naming
+- You need to have option to add a state bucket that matches the `backend.tf` naming

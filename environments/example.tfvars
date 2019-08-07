@@ -1,0 +1,11 @@
+cluster_name            = "mycluster"
+credentials_path        = "serviceaccount.json"
+gcp_region              = "us-east4-a"
+gcp_zone                = "us-east4-a"
+gcp_project             = "mycoolproject"
+initial_node_count      = 1
+master_username         = "k8smaster"
+master_password         = "k8smasterk8smaster"
+node_pool_name          = "np1"
+node_pool_machine_type  = "n1-standard-1"
+node_pool_machine_count = 2

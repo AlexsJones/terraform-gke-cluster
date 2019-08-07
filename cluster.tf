@@ -13,4 +13,7 @@ resource "google_container_cluster" "primary" {
       issue_client_certificate = false
     }
   }
+  provisioner "local-exec" {
+    command = "gcloud container clusters get-credentials ${var.cluster_name} --region=${var.gcp_region}"
+  }
 }

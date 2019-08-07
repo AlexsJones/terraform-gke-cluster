@@ -6,3 +6,6 @@ provider "google" {
 terraform {
   required_version = ">= 0.11.11"
 }
+provider "helm" {
+
+}
